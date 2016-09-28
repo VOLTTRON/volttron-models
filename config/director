@@ -1,0 +1,19 @@
+{
+    "outputs" : {
+    	"collectOfferRequest" : {
+    		"topic" : "test/collectoffers/request"
+    	},
+    	"collectReservationsRequest" : {
+    		"topic" : "test/collectreservations/request"
+    	},
+    	"clearRequest" : {
+    		"topic" : "test/clear/request"
+    	}
+    },
+    "properties" : {
+    	"marketPeriod" : 10,
+    	"reservationDelay" : 1,
+    	"offerDelay" : 3,
+    	"clearDelay" : 3
+    }
+}

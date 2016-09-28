@@ -1,0 +1,34 @@
+{
+    "inputs" : {
+    	"bidRequest" : {
+    		"topic" : "test/chilledwater/offer/request",
+    		"commodity" : "chilledwater"
+    	},
+    	"reservationRequest" : {
+    		"topic" : "test/chilledwater/reservation/request",
+    		"commodity" : "chilledwater"
+    	},
+    	"clearRequest" : {
+    		"topic" : "test/chilledwater/clear/request",
+    		"commodity" : "chilledwater"
+    	}
+    },
+    "outputs" : {
+    	"bidResponse" : {
+    		"topic" : "test/chilledwater/offer/response",
+    		"commodity" : "chilledwater"
+    	},
+    	"reservationResponse" : {
+    		"topic" : "test/chilledwater/reservation/response",
+    		"commodity" : "chilledwater"
+    	}
+    },
+    "properties" : {
+    	"COP" : 5.0,
+        "maxLoad" : 1000.0,
+        "minLoad" : 100.0,
+        "optimalLoadPct" : 0.85,
+        "minCopPct" : 0.75,
+        "priceCurve" : [{"quantity" : 0.0, "price" : 0.0}, {"quantity" : 1000.0, "price" : 100.0}]
+    }
+}

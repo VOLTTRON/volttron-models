@@ -1,0 +1,54 @@
+{
+    "inputs" : {
+    	"bidResponse" : {
+    		"topic" : "test/chilledwater/offer/response",
+    		"commodity" : "chilledwater"
+    	},
+    	"reservationResponse" : {
+    		"topic" : "test/chilledwater/reservation/response",
+    		"commodity" : "chilledwater"
+    	},
+    	"demandCurveRequest" : {
+    		"topic" : "test/chilledwater/demandcurve/request",
+    		"commodity" : "chilledwater"
+    	},
+    	"supplyCurveRequest" : {
+    		"topic" : "test/chilledwater/supplycurve/request",
+    		"commodity" : "chilledwater"
+    	},
+    	"collectOffersRequest" : {
+    		"topic" : "test/collectoffers/request"
+    	},
+    	"collectReservationsRequest" : {
+    		"topic" : "test/collectreservations/request"
+    	},
+    	"clearRequest" : {
+    		"topic" : "test/clear/request"
+    	}
+    },
+    "outputs" : {
+    	"bidRequest" : {
+    		"topic" : "test/chilledwater/offer/request",
+    		"commodity" : "chilledwater"
+    	},
+    	"reservationRequest" : {
+    		"topic" : "test/chilledwater/reservation/request",
+    		"commodity" : "chilledwater"
+    	},
+    	"clearRequest" : {
+    		"topic" : "test/chilledwater/clear/request",
+    		"commodity" : "chilledwater"
+    	},
+    	"demandCurveResponse" : {
+    		"topic" : "test/chilledwater/demandcurve/response",
+    		"commodity" : "chilledwater"
+    	},
+    	"supplyCurveResponse" : {
+    		"topic" : "test/chilledwater/supplycurve/response",
+    		"commodity" : "chilledwater"
+    	}
+    },
+    "properties" : {
+    	"name" : "ChilledWaterMarket"
+    }
+}
